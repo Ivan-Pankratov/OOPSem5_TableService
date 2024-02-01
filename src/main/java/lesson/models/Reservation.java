@@ -1,20 +1,34 @@
-package lesson;
-
+package lesson.models;
 
 import lesson.models.Table;
 
 import java.util.Date;
 
+/**
+ * Модель процесса резервирование столика
+ */
 public class Reservation {
-
+    /**
+     * счетчик для резервирований
+     */
     private static int counter = 1000;
 
+    /**
+     * Номер резервирования
+     */
     private int id;
 
+    /**
+     * Дата, на когда нужен столик
+     */
     private Date date;
-
+    /**
+     * Имя, на кого сделана бронь
+     */
     private String name;
-
+    /**
+     * Сам столик - предмет резервирования
+     */
     private Table table;
 
     public Reservation(Table table, Date date, String name) {

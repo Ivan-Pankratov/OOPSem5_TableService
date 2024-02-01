@@ -13,5 +13,9 @@
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> a7cb13c (Повторно запушил после сохранения)
 </project>
