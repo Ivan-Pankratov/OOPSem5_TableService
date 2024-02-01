@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-package lesson.presenters;public interface Model {
-=======
 package lesson.presenters;
 
 import lesson.models.Table;
@@ -39,5 +36,4 @@ public interface Model {
      * @return новый номер резервировния
      */
     int changeReservationTable(int oldReservation, Date reservationDate, int tableNo, String name);
->>>>>>> a7cb13c (Повторно запушил после сохранения)
 }
